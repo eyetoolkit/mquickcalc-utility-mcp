@@ -1,0 +1,14 @@
+{
+  "name": "mquickcalc-utility-mcp",
+  "version": "0.1.0",
+  "description": "mQuickCalc Utility MCP Server — unit conversions and common calculators for AI agents",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": { "mquickcalc-utility-mcp": "dist/index.js" },
+  "scripts": { "build": "node build.js", "prepublish": "npm run build", "start": "node dist/index.js" },
+  "keywords": ["mcp", "mcp-server", "unit-converter", "calculator"],
+  "author": "mQuickCalc",
+  "license": "MIT",
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0" },
+  "engines": { "node": ">=18.0.0" }
+}
